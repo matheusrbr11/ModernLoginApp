@@ -19,7 +19,7 @@ label.place(x=25, y=5)
 
 entry1 = customtkinter.CTkEntry(master=frame, placeholder_text="Username", width=300, font=("Roboto", 14)).place(x=25, y=105)
 label1 = customtkinter.CTkLabel(master=frame, text="Required ", text_color="green", font=("Roboto", 8)).place(x=25, y=135)
- 
+
 entry2 = customtkinter.CTkEntry(master=frame, placeholder_text="Password", show="*", width=300, font=("Roboto", 14)).place(x=25, y=175)
 label2 = customtkinter.CTkLabel(master=frame, text="Required", text_color="green", font=("Roboto", 8)).place(x=25, y=205)
 
